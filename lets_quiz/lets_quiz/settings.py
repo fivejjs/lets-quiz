@@ -25,7 +25,7 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'tbdy@fqf+)_@_nv71f@%8rqh02s%d@_l@_iemu35@^*r_00m9l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'letsquiz.pythonanywhere.com']
 
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # third party apps
     'crispy_forms',
+    'crispy_bootstrap4',
     # my apps
     'quiz',
 
@@ -112,7 +113,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/Kolkata'
+TIME_ZONE = 'Australia/Sydney'
 
 USE_I18N = True
 
